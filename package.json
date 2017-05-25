@@ -1,6 +1,6 @@
 {
   "name": "webpack-jsqrcode",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "[jsqrcode]: https://github.com/LazarSoft/jsqrcode.git",
   "main": "jsqrcode.js",
   "scripts": {
