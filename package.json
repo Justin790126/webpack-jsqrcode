@@ -1,0 +1,27 @@
+{
+  "name": "webpack-jsqrcode",
+  "version": "1.0.0",
+  "description": "[jsqrcode]: https://github.com/LazarSoft/jsqrcode.git",
+  "main": "jsqrcode.js",
+  "scripts": {
+    "build": "rm -rf dist && ./node_modules/.bin/webpack index.js ./dist/jsqrcode.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justin790126/webpack-jsqrcode.git"
+  },
+  "keywords": [
+    "jsqrcode",
+    "webpack-jsqrcode"
+  ],
+  "author": "Justin.Chang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Justin790126/webpack-jsqrcode/issues"
+  },
+  "homepage": "https://github.com/Justin790126/webpack-jsqrcode#readme",
+  "devDependencies": {
+    "webpack": "^2.6.0"
+  }
+}

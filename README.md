@@ -1,22 +1,23 @@
-# Jsqrcode in webpack
+# Webpack-jsqrcode
 
-[jsqrcode]: https://github.com/LazarSoft/jsqrcode.git
+This is the porting from [jsqrcode](https://github.com/LazarSoft/jsqrcode).
 
-## Description
 
-* This is the webpack porting from [jsqrcode] .
+## Build
+
+````
+npm install --save-dev webpack
+npm run build
+````
+
+The **jsqrcode.js** is in **dist** folder.
 
 ## Usage
 
-* In qrCodeReader.js :
+Example in **index.html**. Just inculde jsqrcode.js, then, you can use **qrcode** object.
 
-        import {qrcode} from './lib/qrcode.js';
-    
-        this.sourceURL = path_to_qrcode_png;
-        this.qrCode = qrcode;
-        this.qrCode.callback = function(result) {
-            console.log(result);
-        }
-        this.qrCode.decode(this.sourceURL);
-    
+````
+    <script src="dist/jsqrcode.js"></script>
+````
+
 
